@@ -8,11 +8,17 @@ Note disabled browser opening (open: false) in vite.config.js
 Build and Development CLI commands:
 
 Build the image
+```
 $ docker compose up --build -d
+```
 
 Run the container with hot reload effect
+```
 $ docker compose up --watch
+```
 
 Shut down the container
+```
 $ docker compose down
+```
 
